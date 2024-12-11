@@ -1,0 +1,36 @@
+.avatar-canvas {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .avatar-preview {
+    margin-top: 1rem;
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .avatar-preview:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  input[type="file"] {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+  }
+  
